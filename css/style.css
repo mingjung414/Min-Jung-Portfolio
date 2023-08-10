@@ -147,7 +147,7 @@ figure {
   z-index: 100;
   display: none;
 }
-.popup div{
+.popup> div{
   width: 80%;
   position: absolute;
   left: 50%;
@@ -170,6 +170,10 @@ figure {
   width: 100%;
 }
 
+.pop4 img{
+ max-width: 800px;
+margin: auto;
+}
 
 /* 스크롤바 */
 body::-webkit-scrollbar {

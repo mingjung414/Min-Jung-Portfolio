@@ -17,6 +17,10 @@
 	<link rel="stylesheet" href="css/magnific-popup.css">
 	<link rel="stylesheet" href="./css/mouse_line.css">
 
+	<!-- 슬라이드배너 -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/><!--수정X-->
+	<link href="css/slidebanner.css" rel="stylesheet" type="text/css"><!--디자인에 맞게 수정-->
+
 	<link rel="stylesheet" href="css/style.css">
 
 	<link rel="shortcut icon" href="./images/mouse.png" type="image/png">
@@ -105,7 +109,12 @@
 					<a href="#none" class="col-md-4 popup3"><img src="./images/art3.jpg" alt="3">
 						<img src="./images/art3h.jpg" alt="ph3" class="pop1h">
 					</a>
-			
+					<a href="#none" class="col-md-4 popup4"><img src="./images/cat88.jpg" alt="4">
+						<img src="./images/art3h.jpg" alt="ph4" class="pop1h">
+					</a>
+					<a href="#none" class="col-md-4 popup5"><img src="./images/f1.jpg" alt="5">
+						<img src="./images/f1.jpg" alt="ph5" class="pop1h">
+					</a>
 				</div>
 			</div>
 		</div>
@@ -127,6 +136,42 @@
 		<div class="popup pop3">
 			<div>
 				<img src="./images/art33.jpg" alt="이미지">
+				<p><a href="#none">ⓧ</a></p>
+			</div>
+		</div>
+
+		<div class="popup pop4">
+			<div> <!-- 슬라이드 구문 -->
+				<img src="./images/cat88.jpg" alt="이미지">
+
+				<p><a href="#none">ⓧ</a></p>
+			</div>
+		</div>
+
+		<div class="popup pop5">
+			<div> <!-- 슬라이드 구문 -->
+				<div class="swiper-container slide">
+				  <div class="swiper-wrapper">
+					  <div class="swiper-slide">
+						  <a href="#"><img src="./images/f1.jpg" alt="배너1"></a>
+					  </div>
+					  <div class="swiper-slide">
+						  <a href="#"><img src="images/f2.jpg" alt="배너2"></a>
+					  </div>
+					  <div class="swiper-slide">
+						  <a href="#"><img src="images/f3.jpg" alt="배너3"></a>
+					  </div>
+					  <div class="swiper-slide">
+						  <a href="#"><img src="images/f4.jpg" alt="배너4"></a>
+					  </div>
+				  </div>
+				  <!-- 화살표 버튼 -->
+				  <div class="swiper-button-next"></div>
+				  <div class="swiper-button-prev"></div>
+				  <!-- 블릿 버튼 -->
+				  <div class="swiper-pagination"></div>
+				</div>
+
 				<p><a href="#none">ⓧ</a></p>
 			</div>
 		</div>
@@ -293,6 +338,10 @@
 	<script src="./js/popup.js"></script>
 
 	<script src="./js/mouse_line.js"></script>
+
+	<!-- 슬라이드배너 -->
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script><!-- 수정X -->
+	<script src="./js/slidebanner.js"></script><!--디자인에 맞게 수정-->
 </body>
 
 </html>
