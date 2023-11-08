@@ -16,6 +16,14 @@ video{
     background-color: #FFF1F5;
 }
 
+.brand2{
+    background-color:#fff;
+}
+
+.brand22{
+    background-color:#f2e9ec;
+}
+
 /* 이미지 크기 */
 img{
     width:1320px;
@@ -47,6 +55,64 @@ img{
 	font-weight: bolder;
 }
 
-.btn_1 li a:hover{background-color: rgba(255, 86, 137, 0.5);
+.btn_1 li a:hover{background-color: #b63f63;
 
 }
+
+
+/* 버튼 */
+.btn_2 {
+	list-style: none;
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	text-align: center;
+	z-index: 99;
+	
+}
+
+.btn_2 li {
+	margin: 10px;
+}
+
+.btn_2 li a {
+	display: inline-block;
+	padding: 10px 20px;
+	border-radius: 10px;
+	background-color: #fd8b44;
+	color: #fff;
+	font-weight: bolder;
+}
+
+.btn_2 li a:hover{background-color:#bf5e22;
+
+}
+
+/* 버튼 */
+.btn_3 {
+	list-style: none;
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	text-align: center;
+	z-index: 99;
+	
+}
+
+.btn_3 li {
+	margin: 10px;
+}
+
+.btn_3 li a {
+	display: inline-block;
+	padding: 10px 20px;
+	border-radius: 10px;
+	background-color:#d16761;
+	color: #fff;
+	font-weight: bolder;
+}
+
+.btn_3 li a:hover{background-color: #c64039;
+
+}
+
