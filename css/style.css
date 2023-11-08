@@ -30,6 +30,8 @@ body {
   transition: 0.5s;
 }
 
+
+
 .offcanvas #page {
   overflow: hidden;
   position: absolute;
@@ -147,7 +149,7 @@ figure {
   z-index: 100;
   display: none;
 }
-.popup> div{
+.popup div{
   width: 80%;
   position: absolute;
   left: 50%;
@@ -170,10 +172,6 @@ figure {
   width: 100%;
 }
 
-.pop4 img{
- max-width: 800px;
-margin: auto;
-}
 
 /* 스크롤바 */
 body::-webkit-scrollbar {
@@ -896,6 +894,10 @@ body::-webkit-scrollbar-track {
   transition: transform 0.3s, opacity 0.3s;
   -webkit-transform: translate3d(0, -15px, 0);
   transform: translate3d(0, -15px, 0);
+}
+
+.work .desc .hpf{
+  color: #e47027;
 }
 
 .work .desc span {
